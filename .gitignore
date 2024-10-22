@@ -1,0 +1,73 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+wheels/
+pip-wheel-metadata/
+*.dist-info/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# AWS Lambda Layers (zip files)
+*.zip
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# AWS credentials and config
+.aws/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python IDE-specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS-specific files
+.DS_Store
+
+# AWS SAM and CloudFormation artifacts
+.aws-sam/
+.aws/
+.terraform/
+
+# Logs and debug files
+*.log
+
+# Temporary files created by editors
+*~
